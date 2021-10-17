@@ -1,0 +1,14 @@
+Tampilan1
+ 	- https://ayotopup1.000webhostapp.com/Tampilan1
+Tampilan2
+ 	- https://ayotopup1.000webhostapp.com/Tampilan2
+Tampilan3
+ 	- https://ayotopup1.000webhostapp.com/Tampilan3
+		a. /daftar.html
+		b. /menu-produk.html
+		c. /menu-produk-2.html
+		d. /produk.html
+		e. /tentang.html
+		f. /transaksi.html
+		g. /transaksi1.html
+		h. /transaksi2.html

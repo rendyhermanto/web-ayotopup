@@ -1,211 +1,262 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Daftar - CV.ADRAJAYA</title>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<title>Daftar - CV.ADRAJAYA</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-     <link href="stylesheet.css" rel="stylesheet">
+	<link href="stylesheet.css" rel="stylesheet">
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
-	 <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="headers.css" rel="stylesheet">
+	<link href="headers.css" rel="stylesheet">
 	<link href="footers.css" rel="stylesheet">
-  </head>
-	
-  </head>
-  <body>
-     <header>
-	 <div class="px-3 py-2 border-bottom mb-3">
-		  <div class="container d-flex flex-wrap justify-content-center">
-			<form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-			  <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-			  <!--<span class="input-group-text border-0">
+	<script>
+		document.onkeydown = function (e) {
+			if (event.keyCode == 123) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body oncontextmenu="return false;">
+	<header>
+		<div class="px-3 py-2 border-bottom mb-3">
+			<div class="container d-flex flex-wrap justify-content-center">
+				<form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+					<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+					<!--<span class="input-group-text border-0">
 				<i class="fas fa-search"></i
 			  </span>>-->
-			</form>
+				</form>
 
-			<div class="text-end">
-			  <button type="button" class="btn btn-primary login b-blue">Kode Agen</button>
-			  <button type="button" class="btn btn-primary login b-blue">No.Hp</button>
+				<div class="text-end">
+					<button type="button" class="btn btn-primary login b-blue">Kode Agen</button>
+					<button type="button" class="btn btn-primary login b-blue">No.Hp</button>
+				</div>
 			</div>
-		  </div>
 		</div>
 		<div class="px-3 py-2 text-dark">
-		  <div class="container">
-			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-			  <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-				
-			  </a>
-			  <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-				<li>
-				  <a href="index.html" class="nav-link f-blue">
-					Beranda
-				  </a>
-				</li>
-				<li>
-				  <a href="produk.html" class="nav-link link-dark">
-					Produk
-				  </a>
-				</li>
-				<li>
-				  <a href="tentang.html" class="nav-link link-dark">
-					Tentang
-				  </a>
-				</li>
-				<li>
-				  <a href="#" class="nav-link link-dark">
-					Artikel
-				  </a>
-				</li>
-				<li>
-				  <a href="#" class="nav-link link-dark">
-					Panduan
-				  </a>
-				</li>
-			  </ul>
+			<div class="container">
+				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+					<a href="/"
+						class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+
+					</a>
+					<ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+						<li>
+							<a href="index.html" class="nav-link f-blue">
+								Beranda
+							</a>
+						</li>
+						<li>
+							<a href="produk.html" class="nav-link link-dark">
+								Produk
+							</a>
+						</li>
+						<li>
+							<a href="tentang.html" class="nav-link link-dark">
+								Tentang
+							</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-dark">
+								Artikel
+							</a>
+						</li>
+						<li>
+							<a href="#" class="nav-link link-dark">
+								Panduan
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		  </div>
 		</div>
-		
+
 	</header>
 
-    <div class="main">
-				
-	  	<div class="content">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 bg-blue u-section-1 rounded">
-							<div class="d-flex justify-content-center pset">
-								<img class="rounded-circle" src="image/pp_r.jpg" data-holder-rendered="true">
-							</div>
-							<div class="justify-content-center">
-								<p class="pwhite">ADRI12345</p>
-								<p class="pwhite">TUKANG PULSA</p><br>
-								
-								<hr class="hr-side">
-																<center><span><i class="fa fa-bell" style="font-size:30px;color:white;margin-right:30px;"></i></span> <span><i class="fa fa-envelope" style="font-size:30px;color:white;margin-left:10px;"></i></span></center>
-								<hr class="hr-side">
-								<p class="pmenubar"><a href="#">Beranda</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">></a></p>
-								<p class="pmenubar"><a href="#">Profil</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">></a></p>
-								<p class="pmenubar"><a href="#">Riwayat Transaksi</a><a href="#">></a></p>
-							</div>
+	<div class="main">
+
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 bg-blue u-section-1 rounded">
+						<div class="d-flex justify-content-center pset">
+							<img class="rounded-circle" src="image/pp_r.jpg" data-holder-rendered="true">
 						</div>
-						<div class="col-md-8">
-							<div class="control-box p-2 breadcrumb bg-blue rounded u-section-2">
-								<div>
-									<table>
-										<tr>
-											<td><a href="#"><img class="menu_image" src="image/pulsa.png"></a></td>
-											<td><a href="#"><img class="menu_image" src="image/pulsa.png"></a></td>
-											<td><a href="#"><img class="menu_image" src="image/paket_tlp.png"></td>
-											<td><a href="#"><img class="menu_image" src="image/voucher.png"></a></td>
-											<td><a href="#"><img class="menu_image" src="image/token.png"></a></td>
-											<td><a href="#"><img class="menu_image" src="image/ecomerce.png"></a></td>
-										</tr>
-										<tr>
-											<td><p class="judul_menu">PULSA REGULAR</p></td>
-											<td><p class="judul_menu">PULSA DATA</p></td>
-											<td><p class="judul_menu">PAKET TLP&SMS </p></td>
-											<td><p class="judul_menu">VOUCHER DATA</p></td>
-											<td><p class="judul_menu">TOKEN LISTRIK</p></td>
-											<td><p class="judul_menu">E-COMMERCE</p></td>
-										</tr>
-									</table>
-								</div>
-							</div>
-							<div class="control-box p-3 main-content bg-blue rounded u-section-3">
-									<form>
-										<div class="row">
-											<div class="col-sm-6">
-												<p class="judul_menu">Masukan nomor tujuan</p>
-												<input id="newsletter1" type="text" class="form-control" placeholder="No.HP">
-											</div>
-											<div class="col align-self-end">
-												<button class="btn btn-primary btn-sm" type="submit">Nomor/ID.Pel Terakhir</button>	
-												<img class="" src="image/telkomsel.png">												
-											</div>
-											</form>
-										</div>
-											
-									
-									
-								<div>
-									<hr>
-										<div class="row">
-											<div class="col-6 col-sm-3">
-												<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill"><p class="judul_menu">Telkomsel<br> REGULAR</p></button>
-											</div>
-											<div class="col-6 col-sm-3">
-												<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill"><p class="judul_menu">Telkomsel<br> PROMO</p></button>
-											</div>
-											<div class="col-6 col-sm-3">
-												<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill"><p class="judul_menu">Telkomsel<br> PROMO 2</p></button>
-											</div>
-										  </div>
-									<hr>
-								</div>
-								
-							</div>
+						<div class="justify-content-center">
+							<p class="pwhite">ADRI12345</p>
+							<p class="pwhite">TUKANG PULSA</p><br>
+
+							<hr class="hr-side">
+							<center><span><i class="fa fa-bell"
+										style="font-size:30px;color:white;margin-right:30px;"></i></span> <span><i
+										class="fa fa-envelope"
+										style="font-size:30px;color:white;margin-left:10px;"></i></span></center>
+							<hr class="hr-side">
+							<p class="pmenubar"><a
+									href="#">Beranda</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+									href="#">></a></p>
+							<p class="pmenubar"><a
+									href="#">Profil</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="#">></a></p>
+							<p class="pmenubar"><a href="#">Riwayat Transaksi</a><a href="#">></a></p>
 						</div>
 					</div>
+					<div class="col-md-8">
+						<div class="control-box p-2 breadcrumb bg-blue rounded u-section-2">
+							<div>
+								<table>
+									<tr>
+										<td><a href="#"><img class="menu_image" src="image/pulsa.png"></a></td>
+										<td><a href="#"><img class="menu_image" src="image/pulsa.png"></a></td>
+										<td><a href="#"><img class="menu_image" src="image/paket_tlp.png"></td>
+										<td><a href="#"><img class="menu_image" src="image/voucher.png"></a></td>
+										<td><a href="#"><img class="menu_image" src="image/token.png"></a></td>
+										<td><a href="#"><img class="menu_image" src="image/ecomerce.png"></a></td>
+									</tr>
+									<tr>
+										<td>
+											<p class="judul_menu">PULSA REGULAR</p>
+										</td>
+										<td>
+											<p class="judul_menu">PULSA DATA</p>
+										</td>
+										<td>
+											<p class="judul_menu">PAKET TLP&SMS </p>
+										</td>
+										<td>
+											<p class="judul_menu">VOUCHER DATA</p>
+										</td>
+										<td>
+											<p class="judul_menu">TOKEN LISTRIK</p>
+										</td>
+										<td>
+											<p class="judul_menu">E-COMMERCE</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="control-box p-3 main-content bg-blue rounded u-section-3">
+							<form>
+								<div class="row">
+									<div class="col-sm-6">
+										<p class="judul_menu">Masukan nomor tujuan</p>
+										<input id="newsletter1" type="text" class="form-control" placeholder="No.HP">
+									</div>
+									<div class="col align-self-end">
+										<button class="btn btn-primary btn-sm" type="submit">Nomor/ID.Pel
+											Terakhir</button>
+										<img class="" src="image/telkomsel.png">
+									</div>
+							</form>
+						</div>
+
+
+
+						<div>
+							<hr>
+							<div class="row">
+								<div class="col-6 col-sm-3">
+									<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill">
+										<p class="judul_menu">Telkomsel<br> REGULAR</p>
+									</button>
+								</div>
+								<div class="col-6 col-sm-3">
+									<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill">
+										<p class="judul_menu">Telkomsel<br> PROMO</p>
+									</button>
+								</div>
+								<div class="col-6 col-sm-3">
+									<button type="button" class="btn btn-secondary b-blue btn-sm rounded-pill">
+										<p class="judul_menu">Telkomsel<br> PROMO 2</p>
+									</button>
+								</div>
+							</div>
+							<hr>
+						</div>
+
+					</div>
 				</div>
+			</div>
 		</div>
-	 
-	 
-    </div>
-	
+	</div>
 
 
-    <div class="container-fluid bg-foot">
+	</div>
+
+
+
+	<div class="container-fluid bg-foot">
 		<footer class="py-5">
 			<div class="row">
-			
-			  <div class="col-4 offset-1">
-				<form>
-				  <h5 class="f-white">Kritik & Saran</h5>
-				  <div class="d-flex w-100 gap-2">
-				  <table>
-					  <tr>
-							<td>
-								<input id="newsletter1" type="text" class="form-control" placeholder="Email">
-							</td>
-					   </tr>
-					   <tr>
-							<td>
-								<input id="newsletter1" type="text" class="form-control" placeholder="Nama">
-							</td>
-					   </tr>
-					    <tr>
-							<td>
-								<textarea class="form-control" rows="2" cols="20" placeholder="Pesan">
+
+				<div class="col-4 offset-1">
+					<form>
+						<h5 class="f-white">Kritik & Saran</h5>
+						<div class="d-flex w-100 gap-2">
+							<table>
+								<tr>
+									<td>
+										<input id="newsletter1" type="text" class="form-control" placeholder="Email">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input id="newsletter1" type="text" class="form-control" placeholder="Nama">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<textarea class="form-control" rows="2" cols="20" placeholder="Pesan">
 								</textarea>
-							</td>
-					   </tr>
-					   <tr>
-							<td>
-								<button class="btn btn-primary b-blue" type="button">Submit</button>
-							</td>
-						</tr>
-				  </table>
-					
-				  </div>
-				</form>
-			  </div>
-			  <div class="col-6 offset-1">
-				  <p class="f-white">Adrajaya adalah server Pulsa & PPOB atau media penghubung transaksi digital. Kami melayani jual beli pulsa regular, </p>
-				  <br><br><br><br><br>
-				  <p class="f-white">Alamat : Sukasari 2 No.56 RT.01/02 Sekeloa Kec Coblong</p>
-				  
-			  </div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<button class="btn btn-primary b-blue" type="button">Submit</button>
+									</td>
+								</tr>
+							</table>
+
+						</div>
+					</form>
+				</div>
+				<div class="col-6 offset-1">
+					<p class="f-white">Adrajaya adalah server Pulsa & PPOB atau media penghubung transaksi digital. Kami
+						melayani jual beli pulsa regular, </p>
+					<br><br><br><br><br>
+					<p class="f-white">Alamat : Sukasari 2 No.56 RT.01/02 Sekeloa Kec Coblong</p>
+
+				</div>
 			</div>
 
-			
+
 		</footer>
-		
+
 	</div>
-  </body>
+</body>
+
 </html>

@@ -1,2 +1,9 @@
 A. tampilan 1
 	1. Palete warna di sesuaikan
+
+berikut tahapan dan APInya :
+1.  Registrasi   :  https://signup.linkqu.id/?utm_source=landing&utm_medium=header&utm_campaign=register&utm_content=business
+
+2.  API  Devel & UAT  :  https://documenter.getpostman.com/view/3085963/SzKN22op?version=latest#57bd3178-09b2-4136-a721-6f6244ca59b2
+
+3.  Live, dilanjut ke PKS
